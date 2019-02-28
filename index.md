@@ -64,12 +64,8 @@ address.
 {% endcomment %}
 {% if page.latlng %}
 <p id="where">
-  <strong>Where:</strong>
-  {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <strong>Where:</strong> ScC5.15 (i.e the Electronic room on the 5th floor of
+  Science Tower C).
 </p>
 {% endif %}
 
@@ -100,8 +96,7 @@ Modify the block below if there are any special requirements.
 CODE OF CONDUCT
 {% endcomment %}
 <p id="code-of-conduct">
-<strong>Code of Conduct:</strong> Much of the content of this workhop is based 
-Data Carpentry lesson. We ask that all participantsconform to The Carpentries
+<strong>Code of Conduct:</strong>  We ask that all participants conform to The Carpentries
 <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
 </p>
 
@@ -154,7 +149,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% endif %}
 
 {% comment %}
-Collaborative Notes
+
 
 If you want to use an Etherpad, go to
 
