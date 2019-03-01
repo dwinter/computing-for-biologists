@@ -215,23 +215,50 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
-  {% if page.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  To participate in the  workshop,
+  you will need access to the software described below, including a unix-like
+  command line interface.  In addition, you will need an up-to-date web browser.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+
+
+<p>For Windows users there are two straightforward ways to install a linux
+environment on your computers
+<div id="WSL">
+ <h3> Linux subsystem on Windows</h3>
+  If you are using windows10 you can install a linux operating system using the
+  [Windows subsystem for
+  Linux](https://www.lifehacker.com.au/2018/09/how-to-get-started-with-the-windows-subsystem-for-linux/).
+  Following the instructions at this site, choosing 'Ubuntu' as the linux
+  distribution. More detailed installation isntructions can be found here.
+</div>
+  
+<div id="vm">
+  <h3>Virtual Machine</h3>
+
+  <p>
+  Alrenatively, you can install linux within a "virtual box" on your computer.
+   </p>
+  <ol>
+    <li>
+      Install <a href="https://www.virtualbox.org/">VirtualBox</a>.
+    </li>
+    <li>
+      Download our <a href="{{site.swc_vm}}">VM image</a>.
+      <strong>Warning:</strong> this file is 1.7 GByte, so please
+      download it <em>before</em> coming to your workshop.
+    </li>
+    <li>
+      Load the VM into VirtualBox by selecting "Import Appliance" and
+      loading the <code>.ova</code> file.
+    </li>
+  </ol>
+</div>
+
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
@@ -455,26 +482,4 @@ please preview your site before committing, and make sure to run
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
 
-<div id="vm">
-  <h3>Virtual Machine</h3>
 
-  <p>
-    Some instructors prefer to have learners use a virtual machine (VM)
-    rather than install software on their own computers.  If your
-    instructors have chosen to do this, please:
-  </p>
-  <ol>
-    <li>
-      Install <a href="https://www.virtualbox.org/">VirtualBox</a>.
-    </li>
-    <li>
-      Download our <a href="{{site.swc_vm}}">VM image</a>.
-      <strong>Warning:</strong> this file is 1.7 GByte, so please
-      download it <em>before</em> coming to your workshop.
-    </li>
-    <li>
-      Load the VM into VirtualBox by selecting "Import Appliance" and
-      loading the <code>.ova</code> file.
-    </li>
-  </ol>
-</div>
