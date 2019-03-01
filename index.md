@@ -264,7 +264,8 @@ environment on your computers
   <h3>The Bash Shell</h3>
   <p>
     Bash is a commonly-used shell that gives you the power to do simple
-    tasks more quickly.
+    tasks more quickly. If you have installed linux on your Windows system you
+    will have a BASH shell and won't need install it again.
   </p>
 
   <div>
