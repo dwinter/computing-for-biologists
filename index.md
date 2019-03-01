@@ -248,7 +248,7 @@ environment on your computers
       Install <a href="https://www.virtualbox.org/">VirtualBox</a>.
     </li>
     <li>
-      Download our <a href="{{site.swc_vm}}">VM image</a>.
+      Download our <a href="https://docs.google.com/uc?id=0B4Kr6DYkzkQtd05FekRId05DLXM&export=download">VM image</a>.
       <strong>Warning:</strong> this file is 1.7 GByte, so please
       download it <em>before</em> coming to your workshop.
     </li>
