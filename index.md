@@ -233,7 +233,8 @@ environment on your computers
   If you are using windows10 you can install a linux operating system using the
   <a href="https://www.lifehacker.com.au/2018/09/how-to-get-started-with-the-windows-subsystem-for-linux/">
   Windows subsystem for Linux</a>.Following the instructions at this site, choosing 'Ubuntu' as the linux
-  distribution. More detailed installation isntructions can be found here.
+  distribution. More detailed installation isntructions <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10"> can be found
+  here</a>.
 </div>
   
 <div id="vm">
