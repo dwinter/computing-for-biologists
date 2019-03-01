@@ -231,9 +231,8 @@ environment on your computers
 <div id="WSL">
  <h3> Linux subsystem on Windows</h3>
   If you are using windows10 you can install a linux operating system using the
-  [Windows subsystem for
-  Linux](https://www.lifehacker.com.au/2018/09/how-to-get-started-with-the-windows-subsystem-for-linux/).
-  Following the instructions at this site, choosing 'Ubuntu' as the linux
+  <a href="https://www.lifehacker.com.au/2018/09/how-to-get-started-with-the-windows-subsystem-for-linux/">
+  Windows subsystem for Linux</a>.Following the instructions at this site, choosing 'Ubuntu' as the linux
   distribution. More detailed installation isntructions can be found here.
 </div>
   
